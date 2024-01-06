@@ -1,12 +1,994 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1.0"
+      content="width=device-width, initial-scale=1"
     />
-    <title>Company Profile</title>
+    <!-- my css -->
+    <link
+      rel="stylesheet"
+      href="/css/style.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/css/responsive.css"
+    />
+    <!-- font google -->
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Projekita.co</title>
+    <!-- logo title bar -->
+    <link
+      rel="icon"
+      href="img/logo.png"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
   </head>
-  <body></body>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
+      <div class="container">
+        <a
+          class="navbar-brand text-warning"
+          href="#"
+        >
+          <img
+            src="img/logo.png "
+            width="30"
+            alt="pjkt"
+            class="d-inline-block align-text-top me-3"
+          />Projekita.co</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item mx-2">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#"
+                >Beranda</a
+              >
+            </li>
+            <li class="nav-item mx-2">
+              <a
+                class="nav-link"
+                href="#layanan"
+                >Layanan</a
+              >
+            </li>
+            <li class="nav-item mx-2">
+              <a
+                class="nav-link"
+                href="#rekomendasi"
+                >Produk</a
+              >
+            </li>
+            <li class="nav-item mx-2">
+              <a
+                class="nav-link"
+                href="#contact"
+                >Kontak</a
+              >
+            </li>
+          </ul>
+          <div>
+            <button class="button-primary bg-transparent text-white">Daftar</button>
+            <button class="button-secondary bg-transparent text-white">Masuk</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- akhir navbar -->
+
+    <!-- hero section -->
+    <section
+      id="hero"
+      class=""
+    >
+      <div class="container d-flex align-items-center h-100">
+        <div class="row mx-auto">
+          <div class="col-12 text-center text-white">
+            <h1 class="fw-bold"><span class="text-warning">Paracord</span> Custom</h1>
+            <p>Tampil Menarik dengan paracord keinginan anda</p>
+            <button class="btn btn-secondary bg-transparent text-warning">Beli Sekarang</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- akhir hero -->
+
+    <!-- layanan -->
+    <section id="layanan">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2 class="fw-bold">Layanan Kami</h2>
+            <span class="sub-title">Projekita.co hadir menjadi solusi bagi kamu</span>
+          </div>
+        </div>
+
+        <div class="row mt-4">
+          <div class="col-md-4 text-center">
+            <div class="card-layanan">
+              <div class="circle-icon position-relative mx-auto">
+                <img
+                  src="img/icon1.png"
+                  height="60px"
+                  alt=""
+                  class="position-absolute top-50 start-50 translate-middle"
+                />
+              </div>
+              <h3 class="mt-4">custom Tali Jam</h3>
+              <p class="mt-3">Projekita.co hadir sebagai solusi bagi para pengguna jam tangan untuk mengubah tali jam menjadi lebih menarik</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 text-center">
+            <div class="card-layanan position-relative">
+              <div class="circle-icon position-relative mx-auto">
+                <img
+                  src="img/icon2.png"
+                  height="50px"
+                  alt=""
+                  class="position-absolute top-50 start-50 translate-middle"
+                />
+              </div>
+              <h3 class="mt-4">Beli Produk Jadi</h3>
+              <p class="mt-3">Projekita.co menjual berbagai macam aksesoris mulai dari gelang, tali jam, gantungan kunci dan lain-lain.</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 text-center">
+            <div class="card-layanan">
+              <div class="circle-icon position-relative mx-auto">
+                <img
+                  src="img/icon3.png"
+                  height="50px"
+                  alt=""
+                  class="position-absolute top-50 start-50 translate-middle"
+                />
+              </div>
+              <h3 class="mt-4">Reparasi Produk</h3>
+              <p class="mt-3">Projekita.co hadir sebagai solusi bagi para pengguna jam tangan untuk mengubah tali jam menjadi lebih menarik</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir layanan -->
+
+    <!-- search section -->
+    <section
+      id="search"
+      class="d-flex align-items-center"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2>Temukan Aksesoris Terbaikmu</h2>
+
+            <p>Tampil menarik sesuai keinginan</p>
+          </div>
+
+          <div class="col-10 mx-auto">
+            <ul
+              class="nav nav-tabs"
+              id="myTab"
+              role="tablist"
+            >
+              <li
+                class="nav-item"
+                role="presentation"
+              >
+                <button
+                  class="nav-link active"
+                  id="home-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#home"
+                  type="button"
+                  role="tab"
+                  aria-controls="home"
+                  aria-selected="true"
+                >
+                  Custom
+                </button>
+              </li>
+              <li
+                class="nav-item"
+                role="presentation"
+              >
+                <button
+                  class="nav-link"
+                  id="profile-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#profile"
+                  type="button"
+                  role="tab"
+                  aria-controls="profile"
+                  aria-selected="false"
+                >
+                  Produk Baru
+                </button>
+              </li>
+              <li
+                class="nav-item"
+                role="presentation"
+              >
+                <button
+                  class="nav-link"
+                  id="contact-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#contact"
+                  type="button"
+                  role="tab"
+                  aria-controls="contact"
+                  aria-selected="false"
+                >
+                  Reparasi
+                </button>
+              </li>
+            </ul>
+            <div
+              class="tab-content"
+              id="myTabContent"
+            >
+              <div
+                class="tab-pane fade show active"
+                id="home"
+                role="tabpanel"
+                aria-labelledby="home-tab"
+              >
+                <!-- drop down -->
+                <div class="input-group input-cari mb-3">
+                  <button
+                    class="button-secondary dropdown-toggle"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <img
+                      src="img/icon1.png"
+                      height="25px"
+                      alt=""
+                      class="d-block d-lg-inline mx-auto"
+                    />
+                    Tali Jam
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="#"
+                        >Action</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="#"
+                        >Another action</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="#"
+                        >Something else here</a
+                      >
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="#"
+                        >Separated link</a
+                      >
+                    </li>
+                  </ul>
+
+                  <button
+                    class="button-secondary dropdown-toggle"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <img
+                      src="img/money.png"
+                      height="25px"
+                      class="d-block d-lg-inline mx-auto"
+                      alt=""
+                    />
+                    Range Harga
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="#"
+                        >Action</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="#"
+                        >Another action</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="#"
+                        >Something else here</a
+                      >
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="#"
+                        >Separated link</a
+                      >
+                    </li>
+                  </ul>
+
+                  <input
+                    type="text"
+                    class="form-control"
+                    aria-label="Text input with dropdown button"
+                    placeholder="Cari berdasarkan nama"
+                  />
+                  <button
+                    class="button-primary"
+                    type="button"
+                    id="button-addon2"
+                  >
+                    Cari
+                  </button>
+                </div>
+              </div>
+
+              <div
+                class="tab-pane fade"
+                id="profile"
+                role="tabpanel"
+                aria-labelledby="profile-tab"
+              >
+                <div class="input-group input-cari mb-3">
+                  <button
+                    class="button-secondary dropdown-toggle"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <img
+                      src="img/icon1.png"
+                      height="25px"
+                      alt=""
+                    />
+                    Tali Jam
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="#"
+                        >Action</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="#"
+                        >Another action</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="#"
+                        >Something else here</a
+                      >
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="#"
+                        >Separated link</a
+                      >
+                    </li>
+                  </ul>
+
+                  <button
+                    class="button-secondary dropdown-toggle"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <img
+                      src="img/money.png"
+                      height="25px"
+                      alt=""
+                    />
+                    Range Harga
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="#"
+                        >Action</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="#"
+                        >Another action</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="#"
+                        >Something else here</a
+                      >
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="#"
+                        >Separated link</a
+                      >
+                    </li>
+                  </ul>
+
+                  <input
+                    type="text"
+                    class="form-control"
+                    aria-label="Text input with dropdown button"
+                    placeholder="Cari berdasarkan nama"
+                  />
+                  <button
+                    class="button-primary"
+                    type="button"
+                    id="button-addon2"
+                  >
+                    Cari
+                  </button>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="contact"
+                role="tabpanel"
+                aria-labelledby="contact-tab"
+              >
+                <div class="input-group input-cari mb-3">
+                  <button
+                    class="button-secondary dropdown-toggle"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <img
+                      src="img/icon1.png"
+                      height="25px"
+                      alt=""
+                    />
+                    Tali Jam
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="#"
+                        >Action</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="#"
+                        >Another action</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="#"
+                        >Something else here</a
+                      >
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="#"
+                        >Separated link</a
+                      >
+                    </li>
+                  </ul>
+
+                  <button
+                    class="button-secondary dropdown-toggle"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <img
+                      src="img/money.png"
+                      height="25px"
+                      alt=""
+                    />
+                    Range Harga
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="#"
+                        >Action</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="#"
+                        >Another action</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="#"
+                        >Something else here</a
+                      >
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="#"
+                        >Separated link</a
+                      >
+                    </li>
+                  </ul>
+
+                  <input
+                    type="text"
+                    class="form-control"
+                    aria-label="Text input with dropdown button"
+                    placeholder="Cari berdasarkan nama"
+                  />
+                  <button
+                    class="button-primary"
+                    type="button"
+                    id="button-addon2"
+                  >
+                    Cari
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Rekomendasi section -->
+    <section id="rekomendasi">
+      <div class="container pt-5">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2>Rekomendasi Produk</h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
+            <div
+              class="card p-2"
+              style="width: 22rem"
+            >
+              <img
+                src="img/strapwatch.jpg"
+                alt=""
+              />
+              <div class="card-body">
+                <h4>Strap Watch</h4>
+                <p>tali jam paracord</p>
+                <h5>IDR.150.000</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
+            <div
+              class="card p-2"
+              style="width: 22rem"
+            >
+              <img
+                src="img/fishtail.jpg"
+                alt=""
+              />
+              <div class="card-body">
+                <h4>Strap Watch</h4>
+                <p>tali jam paracord</p>
+                <h5>IDR.150.000</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
+            <div
+              class="card p-2"
+              style="width: 22rem"
+            >
+              <img
+                src="img/4braid.jpg"
+                alt=""
+              />
+              <div class="card-body">
+                <h4>Strap Watch</h4>
+                <p>tali jam paracord</p>
+                <h5>IDR.150.000</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
+            <div
+              class="card p-2"
+              style="width: 22rem"
+            >
+              <img
+                src="img/lucky.jpg"
+                alt=""
+              />
+              <div class="card-body">
+                <h4>Strap Watch</h4>
+                <p>tali jam paracord</p>
+                <h5>IDR.150.000</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
+            <div
+              class="card p-2"
+              style="width: 22rem"
+            >
+              <img
+                src="img/cube.jpg"
+                alt=""
+              />
+              <div class="card-body">
+                <h4>Strap Watch</h4>
+                <p>tali jam paracord</p>
+                <h5>IDR.150.000</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
+            <div
+              class="card p-2"
+              style="width: 22rem"
+            >
+              <img
+                src="img/lanyard.jpg"
+                alt=""
+              />
+              <div class="card-body">
+                <h4>Strap Watch</h4>
+                <p>tali jam paracord</p>
+                <h5>IDR.150.000</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Produk-->
+    <section
+      id="produk"
+      class="mt-5 overflow-hidden"
+    >
+      <div class="container position-relative text-center text-lg-start">
+        <div class="row mb-4">
+          <div class="col-9 col-md-12">
+            <h2>Produk Kami</h2>
+          </div>
+          <div class="col-3 col-md-12">
+            <button class="button-produk">
+              Lihat Semua..
+              <img
+                src="img/right.png"
+                class="ms-2"
+                alt=""
+              />
+            </button>
+          </div>
+        </div>
+
+        <div class="container position-relative">
+          <div class="row">
+            <div class="col-12 d-flex justify-content-start">
+              <div class="card-produk me-3 position-relative">
+                <img
+                  src="img/fishtail.jpg"
+                  height="350px"
+                  alt=""
+                />
+
+                <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">
+                  <div class="position-absolute top-50 start-50 translate-middle text-center w-100">
+                    <h5>Tali Jam</h5>
+                    <span>Tali Jam Tipe-Fishtail</span>
+                    <h6>IDR.80.000</h6>
+                    <button>Lihat Produk</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-produk me-3 position-relative">
+                <img
+                  src="img/strapwatch.jpg"
+                  height="350px"
+                  alt=""
+                />
+
+                <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">
+                  <div class="position-absolute top-50 start-50 translate-middle text-center w-100">
+                    <h5>Tali Jam</h5>
+                    <span>Tali Jam Tipe-mated snake</span>
+                    <h6>IDR.150.000</h6>
+                    <button>Lihat Produk</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-produk me-3 position-relative">
+                <img
+                  src="img/cube.jpg"
+                  height="350px"
+                  alt=""
+                />
+
+                <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">
+                  <div class="position-absolute top-50 start-50 translate-middle text-center w-100">
+                    <h5>Gantungan Kunci</h5>
+                    <span>Gantungan Kunci Tipe-kubus</span>
+                    <h6>IDR.80.000</h6>
+                    <button>Lihat Produk</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-produk me-3 position-relative">
+                <img
+                  src="img/fishtail.jpg"
+                  height="350px"
+                  alt=""
+                />
+
+                <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">
+                  <div class="position-absolute top-50 start-50 translate-middle text-center w-100">
+                    <h5>Tali Jam</h5>
+                    <span>Tali Jam Tipe-Fishtail</span>
+                    <h6>IDR.80.000</h6>
+                    <button>Lihat Produk</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="btn-arrow-left position-absolute start-0 top-50 translate-middle-y">
+            <img
+              src="img/left.png"
+              alt=""
+            />
+          </button>
+
+          <button class="btn-arrow-right position-absolute end-0 top-50 translate-middle-y">
+            <img
+              src="img/right.png"
+              alt=""
+            />
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section id="contact">
+      <div class="container-fluid overlay h-100">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h3>
+                Butuh Konsultasi..? <br />Silahkan hubungi Kami <br />
+                Kami siap Membantu
+              </h3>
+              <div class="kontak">
+                <h6>Kontak</h6>
+                <div class="mb-3 d-flex align-items-center">
+                  <div>
+                    <img
+                      src="img/map2.png"
+                      alt=""
+                    />
+                  </div>
+
+                  <a href="#">Jl.Raya Bulak Lor no.26 Rt01 Rw 01 Jatibarang <br />Indramayu Jawa Barat</a>
+                </div>
+
+                <div class="mb-3">
+                  <img
+                    src="img/telephone.png"
+                    alt=""
+                  />
+                  <a href="#">085-222-569-636</a>
+                </div>
+                <div class="mb-3">
+                  <img
+                    src="img/mail.png"
+                    alt=""
+                  />
+                  <a href="#">projekita@gmail.com</a>
+                </div>
+              </div>
+
+              <h6>Social Media</h6>
+              <a
+                href="https://www.instagram.com/projekita.co/"
+                target="_blank"
+                class="me-lg-3 me-1"
+                ><img
+                  src="img/ig.png"
+                  alt=""
+              /></a>
+              <a
+                href="#"
+                class="me-lg-3 me-1"
+                ><img
+                  src="img/fb.png"
+                  alt=""
+              /></a>
+              <a
+                href="#"
+                class="me-lg-3 me-1"
+                ><img
+                  src="img/yt.png"
+                  alt=""
+              /></a>
+              <a
+                href="#"
+                class="linkpjkt"
+                >Projekita.co</a
+              >
+            </div>
+
+            <div class="col-md-6">
+              <div class="card-contact w-100">
+                <form>
+                  <h2>Ada Pertanyaan..?</h2>
+                  <div class="form-floating mb-3">
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="floatingInput"
+                      placeholder="name@example.com"
+                    />
+                    <label
+                      for="floatingInput"
+                      class="d-flex align-items-center"
+                      >Masukan Email anda</label
+                    >
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="floatingInput"
+                      placeholder="name@example.com"
+                    />
+                    <label
+                      for="floatingInput"
+                      class="d-flex align-items-center"
+                      >Pertanyaan anda</label
+                    >
+                  </div>
+                  <button
+                    type="submit"
+                    class="button-contact w-100"
+                  >
+                    Kirim
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="d-flex align-items-center position-relative">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7 d-flex align-items-center justify-content-md-start justify-content-center">
+              <img
+                src="img/logo.png"
+                width="30"
+                alt=""
+              />
+              <a
+                href="#"
+                class="ms-2"
+                >Projekita.co</a
+              >
+            </div>
+            <div class="col-md-5 d-flex justify-content-evenly justify-content-center">
+              <a href="#hero">Beranda</a>
+              <a href="#layanan">Layanan</a>
+              <a href="#rekomendasi">Produk</a>
+              <a href="#contact">Kontak</a>
+            </div>
+          </div>
+          <div class="row position-absolute copyright start-50 translate-middle">
+            <div class="col-12">
+              <p class="text-center">Copyright &copy; 2024 by RamdhaniNaufal</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
